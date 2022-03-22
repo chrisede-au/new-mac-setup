@@ -1,0 +1,23 @@
+
+
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install Parallel
+# This helps us to get a list of apps installed with Parallels for next time
+# eg brew list --formula | parallel "brew info {} | egrep '[0-9]* files, ' | sed 's/^.*[0-9]* files, \(.*\)).*(/{}) \1/'" | sort -k2 -hr
+brew install parallel; parallel --citation   #Skip this step if parallel is already installed
+
+
+# Install Homebrew Apps
+brew install firefox
+brew install spotify
+brew install appcleaner
+brew install breaktimer
+brew install github
+brew install monitor-control
+brew install reeder
+brew install sensibo
+brew install steam
+brew install vs-code
+brew install whatsapp
