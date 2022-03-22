@@ -1,7 +1,3 @@
-
-
-
-
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -21,5 +17,6 @@ brew install monitor-control
 brew install reeder
 brew install sensibo
 brew install steam
-brew install vs-code
+brew install the-unarchiver
+brew install vscode
 brew install whatsapp
