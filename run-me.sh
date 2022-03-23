@@ -23,4 +23,6 @@ brew install whatsapp
 
 # Configure Dock
 defaults write com.apple.dock orientation left
+defaults write com.apple.dock show-recents -bool FALSE
+
 killall Dock
