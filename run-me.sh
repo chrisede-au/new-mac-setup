@@ -8,15 +8,19 @@ brew install parallel; parallel --citation   #Skip this step if parallel is alre
 
 
 # Install Homebrew Apps
-brew install firefox
-brew install spotify
 brew install appcleaner
 brew install breaktimer
+brew install firefox
 brew install github
 brew install monitor-control
 brew install reeder
 brew install sensibo
+brew install spotify
 brew install steam
 brew install the-unarchiver
 brew install vscode
 brew install whatsapp
+
+# Configure Dock
+defaults write com.apple.dock orientation left
+killall Dock
