@@ -1,0 +1,11 @@
+.bookmark-item > .toolbarbutton-icon {
+    display: none !important;
+}
+
+#PlacesToolbarItems > .bookmark-item > .toolbarbutton-icon[label]: {
+    margin-inline-end: 0px !important;
+}
+
+.tabbrowser-tab .tab-icon-image {
+display: none !important;
+}
